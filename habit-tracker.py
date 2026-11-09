@@ -30,6 +30,11 @@ for habit, done in status.items():
     else:
         print(f"{habit}: ❌")
 print(f"Habits Completion {percentage:.2f}%!")
+today=str(date.today())
+old_data[today]=status
+with open("habits.json", "w") as f:
+    json.dump(old_data, f, indent=4)
+print("\nYour data has been stored Succesfully!\n")
    
 
 

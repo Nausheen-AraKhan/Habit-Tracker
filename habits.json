@@ -1,0 +1,9 @@
+{
+    "2026-11-09": {
+        "dsa": false,
+        "os": true,
+        "python": true,
+        "cpp": true,
+        "webdev": false
+    }
+}
