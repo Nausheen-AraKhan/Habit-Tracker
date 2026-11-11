@@ -5,5 +5,10 @@
         "python": true,
         "cpp": true,
         "webdev": false
+    },
+    "2026-11-11": {
+        "cpp": true,
+        "webdev": true,
+        "os": false
     }
 }

@@ -35,6 +35,11 @@ old_data[today]=status
 with open("habits.json", "w") as f:
     json.dump(old_data, f, indent=4)
 print("\nYour data has been stored Succesfully!\n")
+print("\n========HABIT HISTORY========\n")
+for saved_data, status in old_data.items():
+    print(saved_data)
+    for habit,done in status.items():
+        print(f"{habit}: {done}")
    
 
 
