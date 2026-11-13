@@ -37,9 +37,13 @@ with open("habits.json", "w") as f:
 print("\nYour data has been stored Succesfully!\n")
 print("\n========HABIT HISTORY========\n")
 for saved_data, status in old_data.items():
-    print(saved_data)
-    for habit,done in status.items():
-        print(f"{habit}: {done}")
+   print((f"\n📅 {saved_data}"))
+   for habit, done in status.items():
+       if done:
+           print(f"{habit}: ✅ Completed")
+       else:
+           print(f"{habit}: ❌ Not Completed")
+
    
 
 

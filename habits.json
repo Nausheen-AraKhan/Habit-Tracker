@@ -10,5 +10,10 @@
         "cpp": true,
         "webdev": true,
         "os": false
+    },
+    "2026-11-13": {
+        "dsa": false,
+        "os": false,
+        "python": true
     }
 }
