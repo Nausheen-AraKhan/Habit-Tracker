@@ -1,4 +1,4 @@
-# Habit Tracker 📝
+# HabitFlow 📝
 
 A Python-based Habit Tracker designed to help users build consistency, monitor daily routines, and track their personal growth over time.
 
